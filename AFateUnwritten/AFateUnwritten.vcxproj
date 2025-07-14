@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ed54e523-17e2-47f7-96e0-90447f84bd97}</ProjectGuid>
+    <RootNamespace>AFateUnwritten</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>C:\Users\shais\source\repos\AFateUnwritten\AFateUnwritten\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)AFateUnwritten\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-system-d.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)AFateUnwritten\lib%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)AFateUnwritten\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-audio.lib;sfml-network.lib;sfml-system.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)AFateUnwritten\lib%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BackgroundManager.cpp" />
+    <ClCompile Include="src\Button.cpp" />
+    <ClCompile Include="src\ChapterTitleScreens.cpp" />
+    <ClCompile Include="src\ControlScreen.cpp" />
+    <ClCompile Include="src\Dialogue.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameScore.cpp" />
+    <ClCompile Include="src\GifAnimator.cpp" />
+    <ClCompile Include="src\Intro.cpp" />
+    <ClCompile Include="src\Lion.cpp" />
+    <ClCompile Include="src\LoadScreen.cpp" />
+    <ClCompile Include="src\Menu.cpp" />
+    <ClCompile Include="src\Outro.cpp" />
+    <ClCompile Include="src\PauseMenu.cpp" />
+    <ClCompile Include="src\QuestionHandler.cpp" />
+    <ClCompile Include="src\ResizeManager.cpp" />
+    <ClCompile Include="src\RetryScreen.cpp" />
+    <ClCompile Include="src\Scarecrow.cpp" />
+    <ClCompile Include="src\TextManager.cpp" />
+    <ClCompile Include="src\Timer.cpp" />
+    <ClCompile Include="src\Tinman.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BackgroundManager.h" />
+    <ClInclude Include="src\Button.h" />
+    <ClInclude Include="src\ChapterTitleScreens.h" />
+    <ClInclude Include="src\ControlScreen.h" />
+    <ClInclude Include="src\Dialogue.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\GameScore.h" />
+    <ClInclude Include="src\GifAnimator.h" />
+    <ClInclude Include="src\Intro.h" />
+    <ClInclude Include="src\IntroNarrative.h" />
+    <ClInclude Include="src\Lion.h" />
+    <ClInclude Include="src\LionNarrative.h" />
+    <ClInclude Include="src\LoadResources.h" />
+    <ClInclude Include="src\LoadScreen.h" />
+    <ClInclude Include="src\Menu.h" />
+    <ClInclude Include="src\Outro.h" />
+    <ClInclude Include="src\OutroNarrative.h" />
+    <ClInclude Include="src\PauseMenu.h" />
+    <ClInclude Include="src\QuestionHandler.h" />
+    <ClInclude Include="src\ResizeManager.h" />
+    <ClInclude Include="src\RetryScreen.h" />
+    <ClInclude Include="src\Scarecrow.h" />
+    <ClInclude Include="src\ScarecrowNarrative.h" />
+    <ClInclude Include="src\Scene.h" />
+    <ClInclude Include="src\TextManager.h" />
+    <ClInclude Include="src\Timer.h" />
+    <ClInclude Include="src\Tinman.h" />
+    <ClInclude Include="src\TinmanNarrative.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\bad_end\frame0.png" />
+    <Image Include="resources\bad_end\frame1.png" />
+    <Image Include="resources\bad_end\frame10.png" />
+    <Image Include="resources\bad_end\frame11.png" />
+    <Image Include="resources\bad_end\frame12.png" />
+    <Image Include="resources\bad_end\frame13.png" />
+    <Image Include="resources\bad_end\frame14.png" />
+    <Image Include="resources\bad_end\frame15.png" />
+    <Image Include="resources\bad_end\frame16.png" />
+    <Image Include="resources\bad_end\frame17.png" />
+    <Image Include="resources\bad_end\frame18.png" />
+    <Image Include="resources\bad_end\frame19.png" />
+    <Image Include="resources\bad_end\frame2.png" />
+    <Image Include="resources\bad_end\frame20.png" />
+    <Image Include="resources\bad_end\frame21.png" />
+    <Image Include="resources\bad_end\frame22.png" />
+    <Image Include="resources\bad_end\frame23.png" />
+    <Image Include="resources\bad_end\frame24.png" />
+    <Image Include="resources\bad_end\frame25.png" />
+    <Image Include="resources\bad_end\frame26.png" />
+    <Image Include="resources\bad_end\frame27.png" />
+    <Image Include="resources\bad_end\frame28.png" />
+    <Image Include="resources\bad_end\frame29.png" />
+    <Image Include="resources\bad_end\frame3.png" />
+    <Image Include="resources\bad_end\frame30.png" />
+    <Image Include="resources\bad_end\frame31.png" />
+    <Image Include="resources\bad_end\frame32.png" />
+    <Image Include="resources\bad_end\frame33.png" />
+    <Image Include="resources\bad_end\frame34.png" />
+    <Image Include="resources\bad_end\frame35.png" />
+    <Image Include="resources\bad_end\frame36.png" />
+    <Image Include="resources\bad_end\frame37.png" />
+    <Image Include="resources\bad_end\frame38.png" />
+    <Image Include="resources\bad_end\frame39.png" />
+    <Image Include="resources\bad_end\frame4.png" />
+    <Image Include="resources\bad_end\frame40.png" />
+    <Image Include="resources\bad_end\frame41.png" />
+    <Image Include="resources\bad_end\frame42.png" />
+    <Image Include="resources\bad_end\frame43.png" />
+    <Image Include="resources\bad_end\frame44.png" />
+    <Image Include="resources\bad_end\frame45.png" />
+    <Image Include="resources\bad_end\frame46.png" />
+    <Image Include="resources\bad_end\frame47.png" />
+    <Image Include="resources\bad_end\frame48.png" />
+    <Image Include="resources\bad_end\frame49.png" />
+    <Image Include="resources\bad_end\frame5.png" />
+    <Image Include="resources\bad_end\frame50.png" />
+    <Image Include="resources\bad_end\frame51.png" />
+    <Image Include="resources\bad_end\frame52.png" />
+    <Image Include="resources\bad_end\frame53.png" />
+    <Image Include="resources\bad_end\frame54.png" />
+    <Image Include="resources\bad_end\frame55.png" />
+    <Image Include="resources\bad_end\frame56.png" />
+    <Image Include="resources\bad_end\frame57.png" />
+    <Image Include="resources\bad_end\frame58.png" />
+    <Image Include="resources\bad_end\frame59.png" />
+    <Image Include="resources\bad_end\frame6.png" />
+    <Image Include="resources\bad_end\frame60.png" />
+    <Image Include="resources\bad_end\frame61.png" />
+    <Image Include="resources\bad_end\frame62.png" />
+    <Image Include="resources\bad_end\frame63.png" />
+    <Image Include="resources\bad_end\frame64.png" />
+    <Image Include="resources\bad_end\frame65.png" />
+    <Image Include="resources\bad_end\frame66.png" />
+    <Image Include="resources\bad_end\frame67.png" />
+    <Image Include="resources\bad_end\frame68.png" />
+    <Image Include="resources\bad_end\frame69.png" />
+    <Image Include="resources\bad_end\frame7.png" />
+    <Image Include="resources\bad_end\frame70.png" />
+    <Image Include="resources\bad_end\frame71.png" />
+    <Image Include="resources\bad_end\frame72.png" />
+    <Image Include="resources\bad_end\frame73.png" />
+    <Image Include="resources\bad_end\frame74.png" />
+    <Image Include="resources\bad_end\frame8.png" />
+    <Image Include="resources\bad_end\frame9.png" />
+    <Image Include="resources\home_2\home_screen_0.png" />
+    <Image Include="resources\home_2\home_screen_1.png" />
+    <Image Include="resources\home_2\home_screen_10.png" />
+    <Image Include="resources\home_2\home_screen_11.png" />
+    <Image Include="resources\home_2\home_screen_12.png" />
+    <Image Include="resources\home_2\home_screen_13.png" />
+    <Image Include="resources\home_2\home_screen_14.png" />
+    <Image Include="resources\home_2\home_screen_15.png" />
+    <Image Include="resources\home_2\home_screen_16.png" />
+    <Image Include="resources\home_2\home_screen_17.png" />
+    <Image Include="resources\home_2\home_screen_18.png" />
+    <Image Include="resources\home_2\home_screen_19.png" />
+    <Image Include="resources\home_2\home_screen_2.png" />
+    <Image Include="resources\home_2\home_screen_20.png" />
+    <Image Include="resources\home_2\home_screen_21.png" />
+    <Image Include="resources\home_2\home_screen_22.png" />
+    <Image Include="resources\home_2\home_screen_23.png" />
+    <Image Include="resources\home_2\home_screen_24.png" />
+    <Image Include="resources\home_2\home_screen_25.png" />
+    <Image Include="resources\home_2\home_screen_26.png" />
+    <Image Include="resources\home_2\home_screen_27.png" />
+    <Image Include="resources\home_2\home_screen_28.png" />
+    <Image Include="resources\home_2\home_screen_29.png" />
+    <Image Include="resources\home_2\home_screen_3.png" />
+    <Image Include="resources\home_2\home_screen_30.png" />
+    <Image Include="resources\home_2\home_screen_31.png" />
+    <Image Include="resources\home_2\home_screen_32.png" />
+    <Image Include="resources\home_2\home_screen_33.png" />
+    <Image Include="resources\home_2\home_screen_34.png" />
+    <Image Include="resources\home_2\home_screen_35.png" />
+    <Image Include="resources\home_2\home_screen_36.png" />
+    <Image Include="resources\home_2\home_screen_37.png" />
+    <Image Include="resources\home_2\home_screen_38.png" />
+    <Image Include="resources\home_2\home_screen_39.png" />
+    <Image Include="resources\home_2\home_screen_4.png" />
+    <Image Include="resources\home_2\home_screen_40.png" />
+    <Image Include="resources\home_2\home_screen_41.png" />
+    <Image Include="resources\home_2\home_screen_42.png" />
+    <Image Include="resources\home_2\home_screen_43.png" />
+    <Image Include="resources\home_2\home_screen_44.png" />
+    <Image Include="resources\home_2\home_screen_45.png" />
+    <Image Include="resources\home_2\home_screen_46.png" />
+    <Image Include="resources\home_2\home_screen_47.png" />
+    <Image Include="resources\home_2\home_screen_48.png" />
+    <Image Include="resources\home_2\home_screen_49.png" />
+    <Image Include="resources\home_2\home_screen_5.png" />
+    <Image Include="resources\home_2\home_screen_50.png" />
+    <Image Include="resources\home_2\home_screen_51.png" />
+    <Image Include="resources\home_2\home_screen_52.png" />
+    <Image Include="resources\home_2\home_screen_53.png" />
+    <Image Include="resources\home_2\home_screen_54.png" />
+    <Image Include="resources\home_2\home_screen_55.png" />
+    <Image Include="resources\home_2\home_screen_56.png" />
+    <Image Include="resources\home_2\home_screen_57.png" />
+    <Image Include="resources\home_2\home_screen_58.png" />
+    <Image Include="resources\home_2\home_screen_59.png" />
+    <Image Include="resources\home_2\home_screen_6.png" />
+    <Image Include="resources\home_2\home_screen_60.png" />
+    <Image Include="resources\home_2\home_screen_61.png" />
+    <Image Include="resources\home_2\home_screen_62.png" />
+    <Image Include="resources\home_2\home_screen_63.png" />
+    <Image Include="resources\home_2\home_screen_64.png" />
+    <Image Include="resources\home_2\home_screen_65.png" />
+    <Image Include="resources\home_2\home_screen_7.png" />
+    <Image Include="resources\home_2\home_screen_8.png" />
+    <Image Include="resources\home_2\home_screen_9.png" />
+    <Image Include="resources\images\bad_ending.png" />
+    <Image Include="resources\images\castle_before.png" />
+    <Image Include="resources\images\controls.png" />
+    <Image Include="resources\images\dorothy_house.png" />
+    <Image Include="resources\images\good_ending.png" />
+    <Image Include="resources\images\lion_after.png" />
+    <Image Include="resources\images\lion_before.png" />
+    <Image Include="resources\images\lion_sad.png" />
+    <Image Include="resources\images\pause.png" />
+    <Image Include="resources\images\scarecrow_after.png" />
+    <Image Include="resources\images\scarecrow_before.png" />
+    <Image Include="resources\images\scarecrow_sad.png" />
+    <Image Include="resources\images\tinman_after.png" />
+    <Image Include="resources\images\tinman_before.png" />
+    <Image Include="resources\images\tinman_sad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\fonts\CALIFR.TTF" />
+    <Font Include="resources\fonts\INFROMAN.TTF" />
+    <Font Include="resources\fonts\MTCORSVA.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\end_credits.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\music\BadEndingMusic.ogg" />
+    <None Include="resources\music\buttonEffect.ogg" />
+    <None Include="resources\music\ChapterTitleMusic.ogg" />
+    <None Include="resources\music\choiceSound.ogg" />
+    <None Include="resources\music\flatline.ogg" />
+    <None Include="resources\music\GoodEndingBackgroundMusic.ogg" />
+    <None Include="resources\music\IntroMusic.ogg" />
+    <None Include="resources\music\LionBackgroundMusic.ogg" />
+    <None Include="resources\music\MenuMusic.ogg" />
+    <None Include="resources\music\ScareCrowBackgroundMusic.ogg" />
+    <None Include="resources\music\TinManBackgroundMusic.ogg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

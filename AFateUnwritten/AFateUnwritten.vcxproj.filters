@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Tinman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scarecrow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResizeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QuestionHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Outro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dialogue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BackgroundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameScore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChapterTitleScreens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GifAnimator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RetryScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PauseMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BackgroundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dialogue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tinman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScarecrowNarrative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scarecrow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ResizeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OutroNarrative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoadResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LionNarrative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IntroNarrative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Intro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TinmanNarrative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\QuestionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Outro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameScore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChapterTitleScreens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GifAnimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoadScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RetryScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PauseMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControlScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\home_2\home_screen_0.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_1.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_2.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_3.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_4.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_5.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_6.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_7.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_8.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_9.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_10.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_11.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_12.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_13.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_14.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_15.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_16.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_17.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_18.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_19.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_20.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_21.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_22.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_23.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_24.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_25.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_26.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_27.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_28.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_29.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_30.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_31.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_32.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_33.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_34.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_35.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_36.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_37.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_38.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_39.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_40.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_41.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_42.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_43.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_44.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_45.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_46.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_47.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_48.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_49.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_50.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_51.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_52.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_53.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_54.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_55.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_56.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_57.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_58.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_59.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_60.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_61.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_62.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_63.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_64.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\home_2\home_screen_65.png">
+      <Filter>Resource Files\home</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame0.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame1.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame2.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame3.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame4.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame5.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame6.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame7.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame8.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame9.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame10.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame11.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame12.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame13.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame14.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame15.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame16.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame17.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame18.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame19.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame20.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame21.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame22.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame23.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame24.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame25.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame26.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame27.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame28.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame29.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame30.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame31.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame32.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame33.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame34.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame35.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame36.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame37.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame38.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame39.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame40.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame41.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame42.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame43.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame44.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame45.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame46.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame47.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame48.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame49.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame50.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame51.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame52.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame53.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame54.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame55.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame56.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame57.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame58.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame59.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame60.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame61.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame62.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame63.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame64.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame65.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame66.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame67.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame68.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame69.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame70.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame71.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame72.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame73.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\bad_end\frame74.png">
+      <Filter>Resource Files\bad_end</Filter>
+    </Image>
+    <Image Include="resources\images\tinman_sad.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\bad_ending.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\castle_before.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\controls.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\dorothy_house.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\pause.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\scarecrow_after.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\scarecrow_before.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\scarecrow_sad.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\tinman_after.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\tinman_before.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\good_ending.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\lion_after.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\lion_before.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="resources\images\lion_sad.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{90bfcdb7-483b-47d4-9708-dd92f9d5e91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6fcec094-c93f-4075-aac8-e3b6259ab707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{96c37296-3734-413b-90ca-167dae946aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\home">
+      <UniqueIdentifier>{2b6abdc6-682b-4686-88c5-0ae68d786295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\bad_end">
+      <UniqueIdentifier>{bf51d438-0cab-4589-8445-522f19962fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\music">
+      <UniqueIdentifier>{b0acac10-1ec3-4205-a06f-b58d2d20d531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{41bd03ed-21c2-4f18-b0da-10ed46c1b71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{80fdf999-2848-4ef8-a194-b37441fb340a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\fonts\CALIFR.TTF">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+    <Font Include="resources\fonts\INFROMAN.TTF">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+    <Font Include="resources\fonts\MTCORSVA.TTF">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\end_credits.mp4">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\music\BadEndingMusic.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\buttonEffect.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\ChapterTitleMusic.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\choiceSound.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\GoodEndingBackgroundMusic.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\IntroMusic.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\LionBackgroundMusic.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\MenuMusic.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\ScareCrowBackgroundMusic.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\TinManBackgroundMusic.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="resources\music\flatline.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+  </ItemGroup>
+</Project>
