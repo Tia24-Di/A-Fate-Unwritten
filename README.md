@@ -35,7 +35,7 @@ A-Fate-Unwritten/ │ ├── assets/ # Textures, music, fonts ├── src/ 
 2. Set up an SFML project using Visual Studio
 3. Link SFML libraries and copy required DLLs
 4. Build the solution and run the executable
-   Or download the compiled .exe from the Releases section.
+   Or download the compiled .exe from the Debug section.
 
 # 🎮 Controls
 - **Enter** – Select / Confirm
